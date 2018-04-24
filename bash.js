@@ -11,6 +11,8 @@ process.stdin.on('data', (data) => {
     pwd();
   } else if (cmd === 'ls') {
     ls();
+  } else if (cmd.match(/^cat/)){
+
   }
 
 
